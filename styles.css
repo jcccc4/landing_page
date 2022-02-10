@@ -4,13 +4,22 @@
     margin: 0;
 }
 
-header,footer{
+header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
     padding: 10px 100px 10px;
     gap: 50px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
 }
 
 img{
@@ -26,6 +35,21 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+button{
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
 }
 
 
@@ -60,18 +84,72 @@ nav{
     height: 250px;
 }
 
-button{
-    border: none;
-    background-color: #3882f6;
-    color: white;
-    padding: 5px 20px;
+.dogs{
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
-    font-size: 20px;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
+    border:#3882f6 solid 5px;
 }
 
-button:hover,
-button:focus {
-    background: #0053ba;
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.dog_container{
+    display: flex;
+    flex-direction: column;
+}
+.dog_box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.dog_text{
+    padding: 0px 0px;
+    width: 170px;
+    text-align: center;
+    align-self: center;
+}
+
+.quotes{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    font: 36px lighter ;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotes>p{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: large;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: 50px 150px;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.call>button{
+    font-weight: bold;
+}
+
+.action{
+    font-weight: bold;
+    font-size: 18px;
 }
