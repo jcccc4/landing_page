@@ -23,8 +23,6 @@ footer{
 }
 
 img{
-    height: 500px;
-    width: 500px;
     object-fit:cover;
 }
 
@@ -86,10 +84,10 @@ button:focus {
 }
 
 .dogs{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 10px;
-    border:#3882f6 solid 5px;
+    border:#3882f6 solid 10px;
 }
 
 .information{
@@ -123,7 +121,7 @@ button:focus {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 150px 550px;
+    padding: 150px 400px;
     font: 36px lighter ;
     font-style: italic;
     color: #1f2937;
@@ -154,3 +152,22 @@ button:focus {
     font-weight: bold;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 1500px) {
+    .dogs{
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+        border:#3882f6 solid 5px;
+    }
+    .quotes{
+        padding: 200px 20px;
+        margin: auto;
+    }
+    .call{
+        margin: 50px 0px;
+        padding: 50px 20px;
+        color: white;
+    }
+    
+  }
