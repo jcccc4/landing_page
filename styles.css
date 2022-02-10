@@ -25,6 +25,7 @@ footer{
 img{
     height: 500px;
     width: 500px;
+    object-fit:cover;
 }
 
 ul {
@@ -122,7 +123,7 @@ button:focus {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 150px 550px;
     font: 36px lighter ;
     font-style: italic;
     color: #1f2937;
@@ -131,7 +132,7 @@ button:focus {
 .quotes>p{
     display: flex;
     flex-direction: row-reverse;
-    font-size: large;
+    font-size: 24px;
 }
 
 .call{
